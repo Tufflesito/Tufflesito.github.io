@@ -2,7 +2,7 @@
 
 # Marcos Blasco Gallego
 
-### Presentacion
+### Presentación
 Estudiante en un grado medio de **_sistemas microinformáticos y redes_**. 
 Con ganas de aprender nuevas cosas y experiencias.
 
@@ -19,7 +19,7 @@ mifpascogallo@gmail.com
 
 Calle Beltiche 7.1 , Barcelona, C. P. 09805
 
-## Formacion
+## Formación
 **2021-2022 - Actualmente: ciclo grado medio**
 ```markdown
 IFP Planeta Sants
