@@ -1,4 +1,7 @@
-# Marcos Blasco Gallego
+#Curriculum
+## Marcos Blasco Gallego
+
+###Presentacion
 Estudiante en un grado medio de sistemas microinformáticos y redes. 
 Con ganas de aprender nuevas cosas y experiencias.
 
