@@ -19,5 +19,12 @@ mblascogallego@gmail.com
 Calle peñiscola 7.1 , Barcelona, C. P. 08906
 
 ## Formacion
+```markdown
 ### 2021-2022 - Actualmente: ciclo grado medio
+IFP Planeta L'Hospitalet de Llobregat
+Cursando el grado medio de sistemas microinformáticos y redes en IFP Planeta Hospitalet
 
+### 2018 - 2021    Educación secundaria
+Centro Educativo Fax
+Titulo educación secundaria ESO 
+```
