@@ -1,4 +1,6 @@
 # Curriculum
+![image](https://user-images.githubusercontent.com/116158162/197497584-a46e005b-915a-4c80-9df2-875f0379fe93.png)
+
 ## Marcos Blasco Gallego
 
 ### Presentacion
