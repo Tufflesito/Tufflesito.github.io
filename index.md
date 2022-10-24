@@ -1,6 +1,6 @@
 ![Image](Imagen1.png)
 
-### Marcos Blasco Gallego
+# Marcos Blasco Gallego
 
 ### Presentacion
 Estudiante en un grado medio de **_sistemas microinformáticos y redes_**. 
