@@ -19,7 +19,9 @@ Móvil: 640903083
 mblascogallego@gmail.com
 
 Calle peñiscola 7.1 , Barcelona, C. P. 08906
-
+::-moz-selection {
+  background-color: #dd2020;
+	color: #fff;
 ## Formacion
 ```markdown
 **2021-2022 - Actualmente: ciclo grado medio**
