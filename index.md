@@ -27,6 +27,13 @@ IFP Planeta Sants
 Cursando el grado medio de sistemas microinformáticos y redes en IFP Planeta Sants
 
 **2018 - 2021    Educación secundaria**
-Torras y balles
+instituto Torras y bages
 Titulo educación secundaria ESO 
 ```
+## Experiencias
+```markdown
+**2018 - 2021 Voluntariado Centro con personas discapacitadas** 
+Asociación  APAL
+Voluntariado con un centro con personas discapacitadas.
+```
+## Intereses y aficiones
