@@ -32,10 +32,10 @@ instituto Torras y bages
 Titulo educación secundaria ESO 
 ```
 ## Experiencias
-
 **2018 - 2021 Voluntariado Centro con personas discapacitadas**
 ```markdown
 Asociación  APAL
 Voluntariado con un centro con personas discapacitadas.
 ```
 ## Intereses y aficiones
+Tengo interés por el estudio por la **_informática_**. Mas adelante tengo pensado dirigirme a **_cibersegurida_** o **_programación de videojuegos_** . En mis tiempos libres voy al gimnasio y salgo con amigos 
