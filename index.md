@@ -4,7 +4,7 @@
 ## Marcos Blasco Gallego
 
 ### Presentacion
-Estudiante en un grado medio de sistemas microinformáticos y redes. 
+Estudiante en un grado medio de **_sistemas microinformáticos y redes_**. 
 Con ganas de aprender nuevas cosas y experiencias.
 
 ### Idiomas
