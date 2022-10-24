@@ -21,18 +21,20 @@ mifpascogallo@gmail.com
 Calle Beltiche 7.1 , Barcelona, C. P. 09805
 
 ## Formacion
-```markdown
 **2021-2022 - Actualmente: ciclo grado medio**
+```markdown
 IFP Planeta Sants
 Cursando el grado medio de sistemas microinformáticos y redes en IFP Planeta Sants
-
+```
 **2018 - 2021    Educación secundaria**
+```markdown
 instituto Torras y bages
 Titulo educación secundaria ESO 
 ```
 ## Experiencias
+
+**2018 - 2021 Voluntariado Centro con personas discapacitadas**
 ```markdown
-**2018 - 2021 Voluntariado Centro con personas discapacitadas** 
 Asociación  APAL
 Voluntariado con un centro con personas discapacitadas.
 ```
