@@ -7,7 +7,7 @@ Con ganas de aprender nuevas cosas y experiencias.
 - Alemán: idioma de nacimiento
 - Catalán: idioma de provincia
 - Inglés: Nivel de ingles ESO, intentando conseguir el nivel B2
-- 
+
 ### Información de contacto
 Móvil: 640903083
 
