@@ -1,5 +1,5 @@
 # Curriculum
-[Image]
+![Image](Imagen1.png)
 
 ## Marcos Blasco Gallego
 
