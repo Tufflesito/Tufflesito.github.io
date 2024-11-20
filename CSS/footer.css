@@ -1,0 +1,24 @@
+footer {
+    background-color: #29524B;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  margin-top: 6%;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .datetime {
+    font-size: 14px;
+  }
+  
+  .datetime span {
+    margin-right: 20px;
+  }
+  

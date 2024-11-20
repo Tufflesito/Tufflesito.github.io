@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz</title>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"><link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css'><link rel="stylesheet" href="./style.css">
+<link href="CSS/bootstrap.css" rel="stylesheet">
+    <link href="CSS/styles.css" rel="stylesheet">
+    <link href="CSS/login.css" rel="stylesheet">
+</head>
+<body>
+  <section class="navigation">
+    <div class="nav-container">
+      <div class="brand">
+        <img class="logo" src="IMG/LOGO.png" >
+      </div>
+      <nav>
+        <div class="nav-mobile"><a id="navbar-toggle" href="#!"><span></span></a></div>
+        <ul class="nav-list">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="Preguntas.html">Preguntas frequentes</a>
+          </li>
+          <li>
+            <a href="Inicio_sesion.html">Espacio personal</a>
+          </li>
+          <li>
+            <a href="Sobre_nosotros.html">Acerca nosotros</a>
+          </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+    
+  
+  <div class="container" id="container">
+    <!-- Contenedor de registro -->
+    <div class="form-container sign-up-container">
+        <form action="PHP/registro.php" method="POST">
+            <h1>Crear Cuenta</h1>
+            <span>Utiliza tu correo electrónico para registrarte</span>
+            <input type="text" name="nombre_apellido" placeholder="Nombre y apellido" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <input type="password" name="contraseña" placeholder="contraseña" required />
+            <input type="number" name="edad" placeholder="Edad" required />
+            <button type="submit">Regístrate</button>
+        </form>
+    </div>
+
+  
+    <div class="form-container sign-in-container">
+      <form action="PHP/login.php" method="POST">
+          <h1>Iniciar sesión</h1>
+          <span>Usa tu cuenta</span>
+          <input type="email" name="email" placeholder="Email" required />
+          <input type="password" name="password" placeholder="Contraseña" required />
+          <a href="PHP/recuperar_contraseña.php">¿Has olvidado tu contraseña?</a>
+          <button type="submit">Entra</button>
+      </form>
+  </div>
+
+    <!-- Contenedor de overlay -->
+    <div class="overlay-container">
+        <div class="overlay">
+            <div class="overlay-panel overlay-left">
+                <h1>¡Bienvenido de nuevo!</h1>
+                <p>Para mantenerte conectado, inicia sesión con tu información personal</p>
+                <button class="ghost" id="signIn">Iniciar sesión</button>
+            </div>
+            <div class="overlay-panel overlay-right">
+                <h1>¡Hola, amigo!</h1>
+                <p>Ingresa tus datos personales y comienza tu cambio con nosotros</p>
+                <button class="ghost" id="signUp">Regístrate</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+  <script src='JS/Explicaciones.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+<script src="JS/index.js"></script>
+<script src="JS/login.js"></script>
+</body>
+</html>

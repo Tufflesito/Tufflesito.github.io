@@ -1,0 +1,151 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>questionario</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css'>
+  <link rel="stylesheet" href="./style.css">
+  <link href="CSS/bootstrap.css" rel="stylesheet">
+  <link href="CSS/test.css" rel="stylesheet">
+</head>
+<body>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <body>
+    <div class="wrapper">
+      <svg>
+        <text x="50%" y="50%" dy=".35em" text-anchor="middle">¡Tu cuestionario de salud!!</text>
+      </svg>
+    </div>
+  
+
+    
+       <!-- Formulario que enviará los datos al PHP -->
+  <form action="PHP/questionario.php" method="POST">
+    <!-- Pregunta 1: Peso -->
+    <div id="question-weight" class="question">
+      <label for="peso_actual">¿Cuál es tu peso actual en kilogramos?</label>
+      <input type="number" id="peso_actual" name="peso_actual" placeholder="Ingresa tu peso en kg" required>
+      <div class="buttons">
+        <button type="button" onclick="nextQuestion('question-weight', 'question-height')">Siguiente</button>
+      </div>
+    </div>
+  
+    <!-- Pregunta 2: Altura -->
+    <div id="question-height" class="question" style="display: none;">
+      <label for="altura">¿Cuál es tu altura en centímetros?</label>
+      <input type="number" id="altura" name="altura" placeholder="Ingresa tu altura en cm" required>
+      <div class="buttons">
+        <button type="button" onclick="nextQuestion('question-height', 'question-goal')">Siguiente</button>
+      </div>
+    </div>
+  
+    <!-- Pregunta 3: Objetivo de peso -->
+    <div id="question-goal" class="question" style="display: none;">
+      <label for="objetivo_peso">¿Cuál es tu objetivo de peso?</label>
+      <input type="number" id="objetivo_peso" name="objetivo_peso" placeholder="Ingresa el peso en kg" required>
+      <div class="buttons">
+        <button type="button" onclick="nextQuestion('question-goal', 'question-gender')">Siguiente</button>
+      </div>
+    </div>
+  
+    <!-- Pregunta 4: Género -->
+    <div id="question-gender" class="question" style="display: none;">
+      <label for="genero">¿Cuál es tu género?</label>
+      <select id="genero" name="genero">
+        <option value="Masculino">Masculino</option>
+        <option value="Femenino">Femenino</option>
+        <option value="Otro">Otro</option>
+      </select>
+      <div class="buttons">
+        <button type="button" onclick="nextQuestion('question-gender', 'question-activity')">Siguiente</button>
+      </div>
+    </div>
+  
+    <!-- Pregunta 5: Nivel de actividad física -->
+    <div id="question-activity" class="question" style="display: none;">
+      <label for="nivel_actividad">¿Qué nivel de actividad física tienes?</label>
+      <select id="nivel_actividad" name="nivel_actividad">
+        <option value="Ninguna">Ninguna</option>
+        <option value="Ligera">Ligera</option>
+        <option value="Moderada">Moderada</option>
+        <option value="Alta">Alta</option>
+      </select>
+      <div class="buttons">
+        <button type="button" onclick="nextQuestion('question-activity', 'question-meta')">Siguiente</button>
+      </div>
+    </div>
+  
+    <!-- Pregunta 6: Meta de salud -->
+    <div id="question-meta" class="question" style="display: none;">
+      <label for="meta_salud">¿Cuál es tu principal meta de salud?</label>
+      <select id="meta_salud" name="meta_salud">
+        <option value="Perder peso">Perder peso</option>
+        <option value="Ganar músculo">Ganar músculo</option>
+        <option value="Mejorar resistencia">Mejorar resistencia</option>
+        <option value="Mantener peso">Mantener peso</option>
+      </select>
+      <div class="buttons">
+        <button type="button" onclick="nextQuestion('question-meta', 'question-diet')">Siguiente</button>
+      </div>
+    </div>
+  
+    <!-- Pregunta 7: Preferencia alimenticia -->
+    <div id="question-diet" class="question" style="display: none;">
+      <label for="preferencia_dieta">¿Qué tipo de dieta prefieres seguir?</label>
+      <select id="preferencia_dieta" name="preferencia_dieta">
+        <option value="Sin preferencia">Sin preferencia</option>
+        <option value="Equilibrada">Equilibrada</option>
+        <option value="Baja en carbohidratos">Baja en carbohidratos</option>
+        <option value="Alta en proteínas">Alta en proteínas</option>
+        <option value="Vegetariana">Vegetariana</option>
+        <option value="Vegana">Vegana</option>
+      </select>
+      <div class="buttons">
+        <button type="button" onclick="nextQuestion('question-diet', 'question-time')">Siguiente</button>
+      </div>
+    </div>
+  
+    <!-- Pregunta 8: Tiempo disponible para ejercicio -->
+    <div id="question-time" class="question" style="display: none;">
+      <label for="tiempo_ejercicio">¿Cuánto tiempo tienes disponible para hacer ejercicio cada semana?</label>
+      <select id="tiempo_ejercicio" name="tiempo_ejercicio">
+        <option value="0-2 horas">0-2 horas</option>
+        <option value="2-4 horas">2-4 horas</option>
+        <option value="4-6 horas">4-6 horas</option>
+        <option value="Más de 6 horas">Más de 6 horas</option>
+      </select>
+      <div class="buttons">
+        <button type="button" onclick="nextQuestion('question-time', 'question-preference')">Siguiente</button>
+      </div>
+    </div>
+  
+    <!-- Pregunta 9: Preferencia de ejercicio -->
+    <div id="question-preference" class="question" style="display: none;">
+      <label for="preferencia_ejercicio">¿Qué tipo de ejercicio prefieres?</label>
+      <select id="preferencia_ejercicio" name="preferencia_ejercicio">
+        <option value="Entrenamiento de fuerza">Entrenamiento de fuerza</option>
+        <option value="Cardio">Cardio</option>
+        <option value="Flexibilidad">Flexibilidad</option>
+        <option value="Mezcla de varios">Mezcla de varios</option>
+      </select>
+      <div class="buttons">
+        <button type="submit">Finalizar</button>
+      </div>
+    </div>
+  </form>
+  <!-- Parcial -->
+  <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+  <script src='https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js'></script>
+  <script src='https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js'></script>
+  <script  src="./script.js"></script>
+  <script src="JS/test.js"></script>
+</body>
+
+</html>

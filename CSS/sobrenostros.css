@@ -1,0 +1,495 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+}
+
+.banner {
+  text-align: center;
+}
+
+.banner img {
+  width: 40%; /* Ajusta el ancho de la imagen según lo necesites */
+}
+
+
+.benefits {
+  position: relative;
+  border-top: 1px solid #cdd2de;
+  border-bottom: 1px solid #cdd2de;
+}
+
+@media (max-width: 767px) {
+  .benefits {
+    min-height: auto;
+    padding-bottom: 70px;
+  }
+}
+
+.benefits h2 {
+  padding-top: 53px;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+  font-optical-sizing: auto;
+  letter-spacing: normal;
+  color: #246258;
+  }
+
+@media (max-width: 767px) {
+  .benefits h2 {
+    padding-top: 50px;
+  }
+}
+
+.benefits .circle-wrap {
+  width: 100%;
+}
+
+.benefits .circle-wrap .circle-info {
+  position: relative;
+  margin-bottom: -35px;
+}
+
+@media (max-width: 1199px) {
+  .benefits .circle-wrap .circle-info .desktop-info {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .benefits .circle-wrap .circle-info .mobile-info {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .benefits .circle-wrap .circle-info .mobile-info {
+    display: none;
+  }
+}
+
+.benefits .circle-wrap .circle-info .mobile-info h3 {
+  display: none;
+}
+
+.benefits .circle-wrap .circle-info .benefits-slider {
+  text-align: center;
+  max-width: 320px;
+  margin: 40px auto 20px;
+}
+
+@media (min-width: 768px) {
+  .benefits .circle-wrap .circle-info .benefits-slider {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .benefits .circle-wrap .circle-info .benefits-slider {
+    max-width: 260px;
+  }
+}
+
+@media (max-width: 768px) {
+  .benefits .circle-wrap .circle-info .benefits-slider h3 {
+    border-top: 8px solid #01cbe0;
+    padding-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .benefits .circle-wrap .circle-info .benefits-slider h3.second {
+    border-color: #d16000;
+  }
+
+  .benefits .circle-wrap .circle-info .benefits-slider h3.third {
+    border-color: #D11700;
+  }
+
+  .benefits .circle-wrap .circle-info .benefits-slider h3.fourth {
+    border-color: #1e356a;
+  }
+
+  .benefits .circle-wrap .circle-info .benefits-slider h3.fifth {
+    border-color: #4380f8;
+  }
+
+  .benefits .circle-wrap .circle-info .benefits-slider h3.sixth {
+    border-color: #91e3ed;
+  }
+}
+
+@media (max-width: 400px) {
+  .benefits .circle-wrap .circle-info .benefits-slider h3 {
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+}
+
+.benefits .circle-wrap .circle-info .benefits-slider p {
+  line-height: 23px;
+  margin-bottom: 20px;
+  color: #1e356a;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+}
+
+@media (max-width: 600px) {
+  .benefits .circle-wrap .circle-info .benefits-slider p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+.benefits .circle-wrap .circle-info .benefits-slider a {
+  color: #0060f5;
+  text-decoration: underline;
+}
+
+.benefits .circle-wrap .circle-info .benefits-slider a:hover {
+  text-decoration: none;
+  color: #0060f5;
+}
+
+.benefits .circle-wrap .circle-info .benefits-slider .slick-next, .benefits .circle-wrap .circle-info .benefits-slider .slick-prev {
+  background-image: url(../img/svg/bulta-footer.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 20px;
+}
+
+.benefits .circle-wrap .circle-info .benefits-slider .slick-prev {
+  left: -50px;
+}
+
+@media (max-width: 450px) {
+  .benefits .circle-wrap .circle-info .benefits-slider .slick-prev {
+    left: -25px;
+  }
+}
+
+.benefits .circle-wrap .circle-info .benefits-slider .slick-next {
+  right: -50px;
+  transform: rotate(180deg);
+  margin-top: -11px;
+}
+
+@media (max-width: 450px) {
+  .benefits .circle-wrap .circle-info .benefits-slider .slick-next {
+    right: -25px;
+  }
+}
+
+.benefits .circle-wrap .circle-info .info {
+  position: absolute;
+  width: 300px;
+  min-height: 155px;
+  cursor: pointer;
+}
+
+@media (max-width: 1199px) {
+  .benefits .circle-wrap .circle-info .info {
+    position: static;
+    margin: 40px auto 20px;
+    width: 320px;
+    min-height: 160px;
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .benefits .circle-wrap .circle-info .info {
+    width: auto;
+    max-width: 300px;
+    margin: 20px auto -90px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .benefits .circle-wrap .circle-info .info .centred-contet {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+  }
+}
+
+.benefits .circle-wrap .circle-info .info p {
+  display: none;
+  line-height: 23px;
+  margin-bottom: 0;
+  color: #1e356a;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+}
+
+@media (max-width: 600px) {
+  .benefits .circle-wrap .circle-info .info p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+.benefits .circle-wrap .circle-info .info p.active {
+  display: block;
+}
+
+.benefits .circle-wrap .circle-info .info a {
+  color: #0060f5;
+}
+
+.benefits .circle-wrap .circle-info .info a:hover {
+  text-decoration: none;
+  color: #0060f5;
+}
+
+.benefits .circle-wrap .circle-info .info.active {
+  display: block;
+  -webkit-animation-delay: 11.5s;
+  animation-delay: 11.5s;
+  -webkit-animation: bounceInLeft 0.8s;
+  -moz-animation: bounceInLeft 0.8s;
+  -o-animation: bounceInLeft 0.8s;
+  animation: bounceInLeft 0.8s;
+}
+
+.benefits .circle-wrap .circle-info .info.active h3 {
+  display: block;
+}
+
+.benefits .circle-wrap .circle-info .info.active p {
+  display: block;
+}
+
+.benefits .circle-wrap .circle-info .red-info {
+  text-align: right;
+  bottom: 24px;
+  left: 0;
+}
+
+.benefits .circle-wrap .circle-info .yellow-info {
+  text-align: right;
+  bottom: 150px;
+  left: 30px;
+}
+
+.benefits .circle-wrap .circle-info .light-green-info {
+  text-align: right;
+  top: -13px;
+  left: 133px;
+  width: 340px;
+}
+
+.benefits .circle-wrap .circle-info .green-info {
+  text-align: left;
+  top: -13px;
+  right: 133px;
+  width: 340px;
+}
+
+.benefits .circle-wrap .circle-info .green-info .centred-contet {
+  right: auto;
+  left: 0;
+}
+
+.benefits .circle-wrap .circle-info .blue-info {
+  text-align: left;
+  bottom: 150px;
+  right: 30px;
+}
+
+.benefits .circle-wrap .circle-info .blue-info .centred-contet {
+  right: auto;
+  left: 0;
+}
+
+.benefits .circle-wrap .circle-info .dark-blue-info {
+  text-align: left;
+  bottom: 24px;
+  right: 0;
+}
+
+.benefits .circle-wrap .circle-info .dark-blue-info .centred-contet {
+  right: auto;
+  left: 0;
+}
+
+@media (max-width: 1199px) {
+  .benefits .circle-wrap .circle-info .red-info, .benefits .circle-wrap .circle-info .yellow-info, .benefits .circle-wrap .circle-info .light-green-info, .benefits .circle-wrap .circle-info .green-info, .benefits .circle-wrap .circle-info .blue-info, .benefits .circle-wrap .circle-info .dark-blue-info {
+    text-align: center;
+  }
+}
+
+.benefits .circle-wrap .circle-container {
+  min-height: 419px;
+}
+
+@media (max-width: 1199px) {
+  .benefits .circle-wrap .circle-container {
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 767px) {
+  .benefits .circle-wrap .circle-container {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .benefits .circle-wrap .circle-container {
+    min-height: 255px;
+  }
+}
+
+.benefits .circle-wrap #circle {
+  width: 100%;
+  max-width: 531px;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  margin-left: -265px;
+  display: block;
+  -webkit-border-top-left-radius: 265px;
+  -webkit-border-top-right-radius: 265px;
+  -moz-border-radius-topleft: 265px;
+  -moz-border-radius-topright: 265px;
+  border-top-left-radius: 265px;
+  border-top-right-radius: 265px;
+}
+
+.benefits .circle-wrap #circle path {
+  cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+  .benefits .circle-wrap #circle {
+    margin-top: 119px;
+  }
+}
+
+@media (max-width: 600px) {
+  .benefits .circle-wrap #circle {
+    max-width: 265px;
+    height: auto;
+    margin-left: -132px;
+  }
+}
+
+.benefits .circle-wrap .middle {
+  width: 242px;
+  height: 242px;
+  position: absolute;
+  bottom: -79px;
+  left: 50%;
+  margin-left: -121px;
+  -webkit-border-radius: 121px;
+  -moz-border-radius: 121px;
+  -ms-border-radius: 121px;
+  border-radius: 121px;
+}
+
+@media (max-width: 600px) {
+  .benefits .circle-wrap .middle {
+    width: 120px;
+    height: 120px;
+    margin-left: -60px;
+    bottom: -56px;
+  }
+}
+
+.benefits .circle-wrap .middle #circle-middle {
+  width: 242px;
+  height: 242px;
+}
+
+@media (max-width: 600px) {
+  .benefits .circle-wrap .middle #circle-middle {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+.benefits .circle-wrap .middle #circle-red {
+  width: 187px;
+  height: 187px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -94px;
+  margin-top: -94px;
+  -webkit-border-radius: 94px;
+  -moz-border-radius: 94px;
+  -ms-border-radius: 94px;
+  border-radius: 94px;
+}
+
+@media (max-width: 600px) {
+  .benefits .circle-wrap .middle #circle-red {
+    width: 90px;
+    height: 90px;
+    margin-left: -45px;
+    margin-top: -45px;
+  }
+}
+
+.benefits .circle-wrap .middle .arrow-wrap {
+  width: 242px;
+  height: 242px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-border-radius: 121px;
+  -moz-border-radius: 121px;
+  -ms-border-radius: 121px;
+  border-radius: 121px;
+}
+
+@media (max-width: 600px) {
+  .benefits .circle-wrap .middle .arrow-wrap {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+.benefits .circle-wrap .middle .arrow-wrap .arrow {
+  position: absolute;
+  top: 50%;
+  margin-top: -31px;
+  margin-left: 17px;
+}
+
+.benefits .circle-wrap .middle .arrow-wrap #arrow {
+  height: 19px;
+}
+
+@media (max-width: 600px) {
+  .benefits .circle-wrap .middle .arrow-wrap #arrow {
+    width: 11px;
+    height: 10px;
+  }
+}
+
+.benefits .circle-wrap.rus h3 {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-bottom: 10px;
+  
+}
+
+.benefits .circle-wrap.rus .circle-info .info p {
+  font-size: 14px;
+  line-height: 19px;
+}

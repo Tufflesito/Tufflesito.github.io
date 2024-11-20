@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: black;
+}
+
+svg {
+  font-family: "Monoton", cursive;
+  width: 100%;
+  height: 100%;
+  margin-top: 2%;
+}
+
+svg text {
+  animation: stroke 10s infinite alternate;
+  stroke-width: 2;
+  stroke: #d16000;
+  font-size: 100px;
+}
+
+@keyframes stroke {
+  0% {
+    fill: rgba(27, 174, 255, 0); /* Transparente al inicio */
+    stroke: #d16000; /* Color del trazo */
+    stroke-dashoffset: 100%;
+    stroke-dasharray: 0 100%; /* Inicia el trazo desde cero */
+    stroke-width: 2;
+  }
+  70% {
+    fill: rgba(27, 174, 255, 0); /* Color de relleno sigue siendo transparente */
+    stroke: #d16000; /* Color del trazo permanece igual */
+  }
+  80% {
+    fill: rgba(27, 174, 255, 0); /* Color de relleno sigue siendo transparente */
+    stroke:#d16000; /* Color del trazo permanece igual */
+    stroke-width: 3; /* Engrosa el trazo en este punto */
+    
+  }
+  100% {
+    fill: rgba(27, 174, 255, 0); /* Rellena el texto con color azul al final */
+    stroke: #d16000; /* El trazo se desvanece */
+    stroke-dashoffset: 0%; /* El trazo se completa */
+    stroke-dasharray: 100% 0; /* Completa el trazo */
+    stroke-width: 0; /* El trazo desaparece */
+  }
+}
+
+
+
+.question {
+  padding: 15px 20px;
+  background: #f1f1f1;
+  border: 5px solid #d16000;
+  border-radius: 5px;
+  font-size: 16px;
+  max-width: 400px;
+  margin-top: 150px;
+  margin-left: 790px;
+}
+
+
+.question label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #d16000;
+}
+
+.question input[type="number"], .question select {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #84c5fe;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.question input[type="number"]:focus, .question select:focus {
+  border-color: #004085;
+}
+
+.question .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.question button {
+  background: #d16000;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  width: 48%;
+}
+
+.question button:hover {
+  background-color: #ff8c00;
+}
